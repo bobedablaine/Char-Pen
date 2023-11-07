@@ -1,0 +1,88 @@
+body{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background: rgb(39, 39, 39);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("pictures/accounting_building.jpg");
+    background-position: center;
+    background-size: 100%;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header h1{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: cyan;
+}
+
+.logo a{
+    background-image: url("pictures/sharpielogo.png");
+    background-size: 300px;
+    text-indent: -9999px;
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    height: 100px;
+    width: 300px;
+
+}
+
+.upper{
+    color: gray;
+    background: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sub{
+    background: blueviolet;
+    margin: auto;
+    width: 100px;
+}
+
+.features img{ 
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.lower{
+    color: gray;
+    background: burlywood;
+}
+
+footer{
+    background: black;
+    padding: 10px 20px;
+}
